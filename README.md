@@ -15,4 +15,4 @@ Before running the script please take a moment to read through the comments and 
 
 # Running the script
 
-The script can be ran like any normal bash script, you can either `bash /path/to/script/upstate-checker.sh` in your bash shell. Preferably you'd want it to run in an automated fashion, for example I edited my crontab using `crontab -e` and then added this line at the end to run the script once every five minutes `*/5 * * * * /home/pi/scripts/upstate-checker.sh`
+The script can be ran like any normal bash script, for example `bash /path/to/script/upstate-checker.sh`. Preferably you'd want it to run in an automated fashion, for example I edited my crontab using `crontab -e` and then added this line at the end to run the script once every five minutes `*/5 * * * * /home/pi/scripts/upstate-checker.sh`
